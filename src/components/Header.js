@@ -1,9 +1,9 @@
 
-
+import DropDownButton from "./DropDownButton";
 
 function Header() {
   return (
-    <div class="relative h-16 w-screen overflow-hidden bg-blue">
+    <div className="HeaderContainer h-16 w-screen bg-blue">
         
         {/* <div class="absolute top-0 right-0 block w-9/12 h-full">
         <img
@@ -13,8 +13,17 @@ function Header() {
         />
         </div> */}
         {/* <img className="object-contain h-16 w-16" src="https://previews.123rf.com/images/bloom21/bloom211805/bloom21180500012/101913685-abstract-human-tree-person-with-roots-branches-and-leafs.jpg?fj=1"></img> */}
-        <img className="object-contain h-16 w-16" src="tree.png"></img>
 
+        <div class="grid grid-cols-2 gap-4">
+            <img className="Logo object-contain h-16 w-16" src="../assests/tree.png"></img>
+            <div className="SMContainer flex justify-end grid grid-cols-4 content-center" >
+                <DropDownButton/>
+                <div>02</div>
+                <div>03</div>
+                <h1>HELLO</h1>
+            </div>
+        </div>
+    
 
     </div>
   );
