@@ -13,7 +13,7 @@ function Header() {
         />
         </div> */}
         {/* <img className="object-contain h-16 w-16" src="https://previews.123rf.com/images/bloom21/bloom211805/bloom21180500012/101913685-abstract-human-tree-person-with-roots-branches-and-leafs.jpg?fj=1"></img> */}
-        <img className="object-contain h-16 w-16" src="../assests/tree.png"></img>
+        <img className="object-contain h-16 w-16" src="tree.png"></img>
 
 
     </div>
