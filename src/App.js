@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import './components/Header';
 import Header from './components/Header';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -15,6 +16,7 @@ function App() {
       <h1 className="text-3xl font-bold underline" >
         Hello world!
       </h1>
+      <Footer/>
     </div>
   );
 }
