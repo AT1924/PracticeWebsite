@@ -1,5 +1,5 @@
 
-import DropDownButton from "./DropDownButton";
+import Button from "@material-tailwind/react/Button";
 
 function Header() {
   return (
@@ -17,7 +17,9 @@ function Header() {
         <div class="flex flex-col">
             {/* <img className="Logo object-contain h-20 w-20 pl-2" src="tree.png"></img> */}
             <div className="SMContainer flex flex-row gap-6 justify-end items-center" >
-                <DropDownButton/>
+            <button class="bg-blue hover:bg-blue text-pink font-bold py-2 px-4 rounded border-solid border-pink border-2 animate-wiggle">
+                Mint Now!
+            </button>
                 <div>02</div>
                 <div>03</div>
                 <h1>HELLO</h1>

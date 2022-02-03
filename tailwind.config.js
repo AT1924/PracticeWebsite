@@ -13,12 +13,27 @@ module.exports = {
       'pink': '#FEC8D8',
       'orange': '#ff7849',
       'green': '#13ce66',
-      'yellow': '#ffc82c',
+      'yellow': '#ffffe3',
       'gray-dark': '#273444',
-      'gray': '#8492a6',
+      'lilac': '#e2eeff',
       'gray-light': '#d3dce6',
+      'white': '#FFFFFF',
     },
-    extend: {},
+    extend: {
+      keyframes: {
+        wiggle: {
+            '0%, 100%': {
+                transform: 'rotate(-3deg)'
+            },
+            '50%': {
+                transform: 'rotate(3deg)'
+            },
+        }
+    },
+    animation: {
+        wiggle: 'wiggle 1s ease-in-out infinite',
+    }
+    },
   },
   plugins: [],
 }
